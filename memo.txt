@@ -1,0 +1,39 @@
+NotebookList 単語帳一覧
+NotebookDetail　ノート詳細
+WordCard 単語カード
+
+App.jsx　★全部のまとめ役
+　　App.jsxのstate(状態)
+    notebooks(ノートの一覧)
+    selectedNotebook(どのノートを開いているか)
+
+    App.jsxの機能
+    単語帳追加
+    単語帳の削除
+    単語追加
+    単語削除
+    画面の切り替え
+
+npm run dev
+
+
+git status          # 変更内容を確認
+git add .
+git commit -m "変更内容のコメント"
+git push
+
+
+https://knowbuddy.vercel.app
+
+ブランチの確認
+git branch　
+
+※mainになっていたらOK
+もし違うなら↓のコマンドを実行
+git push origin main
+
+
+*UPDATREコマンド　（すっごく大事）
+git add .
+git commit -m "update"
+git push

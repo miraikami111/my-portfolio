@@ -1,0 +1,71 @@
+/* 全体の余白をリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#skills * {
+  text-align: center !important;
+}
+.profile-photo {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: block;      /* 画像をブロック要素にする */
+  width: 300px;        /* 好きなサイズに調整 */
+
+}
+.skills_page {
+  background-color: #FFDDE8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.pink_pc {
+  width: 400px;
+}
+
+
+.handwriting-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.handwriting-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="4"><path d="M0 2 Q25 0 50 2 T100 2" stroke="black" stroke-width="4" fill="transparent"/></svg>') repeat-x;
+  background-size: auto 4px;
+}
+
+
