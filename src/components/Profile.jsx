@@ -6,7 +6,7 @@ function Profile(){//Profileコンポーネント
         <section id="profile">
             <h2 className="f-hand">About me</h2>
             
-            <img src="/images/Croatia03.jpg" alt="my skill" className="profile-photo" />
+            <img src="/images/Croatia03.jpg" alt="profile photo" className="profile-photo" />
 
             <h3 className="marker-rough">Job experiences</h3>
             <p>接客 - 飲食店、客室乗務員</p>
