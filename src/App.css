@@ -39,7 +39,7 @@ body {
   width: 300px;        /* 好きなサイズに調整 */
 
 }
-.skills_page {
+.layout_page {
   background-color: #FFDDE8;
   display: flex;
   flex-direction: column;
@@ -48,8 +48,13 @@ body {
   padding: 20px;
 }
 .pink_pc {
+ 
   width: 400px;
+  max-width: 90vw;
+  height: auto;
 }
+
+
 
 
 .handwriting-underline {
@@ -75,4 +80,9 @@ body {
   margin-top: 50px;
 }
 
-
+.kbapp {
+  width: 300px;      /* 好きなサイズに変更OK */
+  max-width: 90%;    /* スマホ対応 */
+  height: auto;      /* 縦横比キープ */
+  border-radius: 10px;  /* ちょっと丸く */
+}

@@ -1,13 +1,13 @@
 //③About me pageの作成
+import croatia03 from "../assets/Croatia03.jpg";
 function Profile(){//Profileコンポーネント
     return(
         // sectionはページのひとまとまり(仕切りみたいなもの)
-    <div className="main-container">
+    <div className="layout_page">
         <section id="profile">
             <h2 className="f-hand">About me</h2>
             
-            <img src="/images/Croatia03.jpg" alt="profile photo" className="profile-photo" />
-
+             <img src={croatia03} alt="Profile photo"className="profile-photo"/>
             <h3 className="marker-rough">Job experiences</h3>
             <p>接客 - 飲食店、客室乗務員</p>
             <p>農家さんのお手伝い - 高原野菜の収穫</p>

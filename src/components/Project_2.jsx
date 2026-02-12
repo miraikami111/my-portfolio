@@ -3,9 +3,10 @@
 function Project_2(){
     return(
     <section id="project_2">
-        <h2>PROJECT_2</h2>
+        <div className="layout_page">
+        <h2 className="f-hand">PROJECT_2</h2>
 
-        <div>
+        
             <h3>日本地図</h3>
             <p>まだ製作途中の私の旅log - My Highlights</p>
             <p>Pythonで何か作ってみたかった</p>
