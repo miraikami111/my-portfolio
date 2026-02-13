@@ -8,16 +8,21 @@ function Profile(){//Profileコンポーネント
             <h2 className="f-hand">About me</h2>
             
              <img src={croatia03} alt="Profile photo"className="profile-photo"/>
-            <h3 className="marker-rough">Job experiences</h3>
-            <p>接客 - 飲食店、客室乗務員</p>
-            <p>農家さんのお手伝い - 高原野菜の収穫</p>
-            <p>品質確認 - 完成車</p>
-            <p>物流 - フォークリフト作業</p>
-            
-            <h3 className="marker-rough">Like</h3>
-            <p>Traveling - 国内外</p>
-            <p>Animals - 馬、犬</p>
-            <p>Sports - 走ること(中距離),cycling</p>
+             <h3 className="marker-rough">Job Experiences</h3>
+                <ul className="profile-list">
+                    <li>接客 - 飲食店、客室乗務員</li>
+                    <li>農家さんのお手伝い - 高原野菜の収穫</li>
+                    <li>品質確認 - 完成車</li>
+                    <li>物流 - フォークリフト作業</li>
+                </ul>
+
+            <h3 className="marker-rough">Likes</h3>
+                <ul className="profile-list">
+                    <li>Traveling 🌏 - 国内外</li>
+                    <li>Animals 🐴🐶 - 馬、犬</li>
+                    <li>Sports 🏃‍♂️🚴‍♂️ - 走ること(中距離), cycling</li>
+                </ul>
+
             
         </section>
     </div>
