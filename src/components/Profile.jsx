@@ -11,13 +11,13 @@ function Profile(){//Profileコンポーネント
             <h3 className="marker-rough">Job experiences</h3>
             <p>接客 - 飲食店、客室乗務員</p>
             <p>農家さんのお手伝い - 高原野菜の収穫</p>
-            <p>品質確認 - 工具を使用した測定</p>
+            <p>品質確認 - 完成車</p>
             <p>物流 - フォークリフト作業</p>
             
             <h3 className="marker-rough">Like</h3>
-            <p>旅行 - 国内外</p>
-            <p>動物 - 馬、犬</p>
-            <p>Sports - running, sycling</p>
+            <p>Traveling - 国内外</p>
+            <p>Animals - 馬、犬</p>
+            <p>Sports - 走ること(中距離),cycling</p>
             
         </section>
     </div>

@@ -86,3 +86,44 @@ body {
   height: auto;      /* 縦横比キープ */
   border-radius: 10px;  /* ちょっと丸く */
 }
+.project1-layout {
+  background-color: #FFDDE8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* 左寄せ */
+  text-align: left;        /* 文字も左寄せ */
+  padding: 20px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-col {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+/* 横並びの列はPCだけで、スマホでは縦並び */
+@media (max-width: 768px) {
+  .project-row {
+    flex-direction: column;
+  }
+  
+  .project-col {
+    padding: 5px 0;
+  }
+}

@@ -7,7 +7,7 @@ function Skills() {
         <h2 className="f-hand">My Skills and Goals</h2>
         <img src={pinkPc} alt="myskills" className="pink_pc" />
                    
-        <h3 className="marker-rough">Learned(Basic IT)</h3>
+        <h3 className="marker-rough">Learnin（IT））</h3>
         <p>Python/Java/JavaScript/CSS/HTML</p>
 
         <p>Django/BootStrap</p>
