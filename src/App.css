@@ -31,14 +31,14 @@ body {
 #skills * {
   text-align: center !important;
 }
+
 .profile-photo {
-  width: 200px;
+  display: block;
+  width: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
-  display: block;      /* 画像をブロック要素にする */
-  width: 300px;        /* 好きなサイズに調整 */
-
 }
+
 .layout_page {
   background-color: #FFDDE8;
   display: flex;
@@ -47,15 +47,12 @@ body {
   text-align: center;
   padding: 20px;
 }
+
 .pink_pc {
- 
   width: 400px;
   max-width: 90vw;
   height: auto;
 }
-
-
-
 
 .handwriting-underline {
   display: inline-block;
@@ -72,6 +69,7 @@ body {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="4"><path d="M0 2 Q25 0 50 2 T100 2" stroke="black" stroke-width="4" fill="transparent"/></svg>') repeat-x;
   background-size: auto 4px;
 }
+
 .footer {
   text-align: center;
   padding: 20px;
@@ -81,47 +79,38 @@ body {
 }
 
 .kbapp {
-  width: 300px;      /* 好きなサイズに変更OK */
-  max-width: 90%;    /* スマホ対応 */
-  height: auto;      /* 縦横比キープ */
-  border-radius: 10px;  /* ちょっと丸く */
+  width: 300px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
 }
 .project-layout {
   display: flex;
-  flex-direction: row;    /* 左右に並べる */
-  align-items: flex-start; /* 上揃え */
-  justify-content: space-between;
-  gap: 20px;             /* 左右の間隔 */
+  flex-direction: column; /* 上から下に積む */
+  align-items: center;    /* 中央寄せ */
   padding: 20px;
   background-color: #FFDDE8;
 }
 
-/* 左側：文章用 */
-.project-left {
-  flex: 1;
-  max-width: 45%;
-  text-align: left;
+.project-left, .project-right {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;  /* 中央寄せ */
 }
 
-/* 右側：カード・画像用 */
+.arrow {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #555;
+  text-align: center;
+}
+
 .project-right {
-  flex: 1;
-  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* スマホ対応：縦並びに切り替え */
-@media (max-width: 768px) {
-  .project-layout {
-    flex-direction: column;
-  }
-
-  .project-left,
-  .project-right {
-    max-width: 100%;
-  }
-}
-
-/* カード共通デザイン */
 .project-card {
   background-color: rgb(166, 231, 243);
   border-radius: 10px;
@@ -129,38 +118,19 @@ body {
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   width: 100%;
-  max-width: 800px;
+}
+.project-link {
+  text-align: center;  /* 画像とリンクを中央揃え */
+  margin-top: 20px;    /* 上下に余白を追加したい場合 */
 }
 
-/* 画像用列（横並びの中で使用する場合） */
-.project-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 20px;
+.project-link .kbapp {
+  display: block;      /* 画像をブロック化してリンクを下に */
+  margin: 0 auto 10px; /* 自動中央揃え＋下に余白10px */
 }
 
-.project-col {
-  flex: 1;
-  min-width: 200px;
-  padding: 10px;
-}
-
-@media (max-width: 768px) {
-  .project-row {
-    flex-direction: column;
-  }
-  
-  .project-col {
-    padding: 5px 0;
-  }
-}
-.profile-list {
-  list-style-type: none; /* デフォルトの・を消す */
-  padding-left: 0;       /* 左の余白も消す */
-  margin: 10px 0;        /* 上下の余白は残す */
-}
-
-.profile-list li {
-  margin-bottom: 8px;    /* 各行の間隔 */
+.btn-link {
+  text-decoration: none; 
+  color: #0070f3;     /* リンク色 */
+  font-weight: bold;
 }
