@@ -39,3 +39,7 @@ git push origin main
 git add .
 git commit -m "update"
 git push
+
+地図のURL
+
+https://miraikami111.github.io/visited_japan/
