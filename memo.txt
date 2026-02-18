@@ -13,6 +13,7 @@ App.jsx　★全部のまとめ役
     単語追加
     単語削除
     画面の切り替え
+npm install ←最初だけ
 
 npm run dev
 
@@ -43,3 +44,16 @@ git push
 地図のURL
 
 https://miraikami111.github.io/visited_japan/
+
+cd my-portfolio
+ls
+ここで
+
+package.json
+src
+public
+が見えるはず。
+
+そのあと
+npm install
+npm run dev

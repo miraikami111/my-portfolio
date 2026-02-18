@@ -51,6 +51,18 @@ function Project_1() {
             {/* 空行 */}
             <br />
             <br />
+         <div className="programing_lang">
+            <h4>*プログラミング言語*</h4>
+            <h1>JavaScript/HTML/CSS</h1>
+            <p>動き（反応）/見た目（骨組み）/デザイン（色・配置）</p>
+            <br /> 
+            <h4>*ライブラリ*</h4>
+            <h1>React</h1>
+            <p>Webアプリを部品（コンポーネント）で作る仕組み</p>
+            <p>画面を作るためのJavaScriptライブラリ</p>
+          </div>
+          <br />
+          
         {/* カードフロー */}
         <div className="project-right">
 

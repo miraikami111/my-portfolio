@@ -84,7 +84,21 @@ body {
   height: auto;
   border-radius: 10px;
 }
+.programing_lang{
+  background-color: rgb(166, 243, 202);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.programing_lang h4 {
+  color: #1018b4;
+  font-weight: bold;
+}
+
 .project-layout {
+  
   display: flex;
   flex-direction: column; /* 上から下に積む */
   align-items: center;    /* 中央寄せ */
@@ -142,3 +156,4 @@ body {
   border-radius: 10px;
   margin-top: 40px; /* ← 上に余白を追加 */
 }
+
