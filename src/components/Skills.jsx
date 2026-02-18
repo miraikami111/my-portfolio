@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="layout_page">
       <section id="skills">
-        <h2 className="f-hand">My Skills and Goals</h2>
+        <h1 className="f-hand">My Skills and Goals</h1>
         <img src={pinkPc} alt="myskills" className="pink_pc" />
                    
         <h3 className="marker-rough">Learning（IT）</h3>

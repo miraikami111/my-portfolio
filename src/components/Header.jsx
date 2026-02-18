@@ -1,10 +1,19 @@
-// ②Headerコンポーネント
-
 import { Link } from "react-router-dom";
 import "./Header.css";
-
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Header() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    const navbar = document.getElementById("navbarNav");
+    if (navbar && navbar.classList.contains("show")) {
+      navbar.classList.remove("show");
+    }
+  }, [location]); // ページが変わったら実行
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3 fixed-top">
       <Link className="navbar-brand" to="/">🍔HOME</Link>

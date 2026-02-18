@@ -5,7 +5,7 @@ function Profile(){//Profileコンポーネント
         // sectionはページのひとまとまり(仕切りみたいなもの)
     <div className="layout_page">
         <section id="profile">
-            <h2 className="f-hand">About me</h2>
+            <h1 className="f-hand">About me</h1>
             
              <img src={croatia03} alt="Profile photo"className="profile-photo"/>
              <h3 className="marker-rough">Job Experiences</h3>

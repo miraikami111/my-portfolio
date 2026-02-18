@@ -35,7 +35,12 @@ h1 {
 
 .f-hand {
   font-family: 'Caveat', cursive;
+   font-size: 48px;
+  text-align: center;
+  margin: 60px 0 40px;
+
 }
+
 
 .f-hand2 {
   font-family: 'Gloria Hallelujah', cursive;
