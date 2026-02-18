@@ -13,7 +13,6 @@ function Project_1() {
           <ul>
             <li>機能はできるだけシンプルに。</li>
             <li>単語帳のトピックを追加・削除</li>
-            <li>追加したデータをローカルに保存(デバイスごとに保存)</li>
             <li>追加した単語トピックをリスト化(本棚)</li>
             <li>トピックごとの単語の追加・削除(Question/Answer)</li>
             <li>追加した単語をリスト化</li>
@@ -21,9 +20,9 @@ function Project_1() {
             <li>FlushCardをクリックしたら、Answer表示</li>
             <li>前・次の画面へ飛ぶボタン</li>
             <li>警告表示（ポップ）</li>
+            <li>ローカルストレージ保存</li>
           </ul>
-          <br />
-          <br />
+        
           <h3>Purpose・・・❔</h3>
           <p>
             朝の通勤時間(電車に乗っている時間)の30分は勉強に充てていて、
@@ -47,17 +46,13 @@ function Project_1() {
     URL: knowbuddy.vercel.app
   </a>
 </div>
-
-            {/* 空行 */}
-            <br />
-            <br />
-         <div className="programing_lang">
+         <div className="programming_lang">
             <h4>*プログラミング言語*</h4>
-            <h1>JavaScript/HTML/CSS</h1>
+            <h5>JavaScript/HTML/CSS</h5>
             <p>動き（反応）/見た目（骨組み）/デザイン（色・配置）</p>
             <br /> 
             <h4>*ライブラリ*</h4>
-            <h1>React</h1>
+            <h5>React</h5>
             <p>Webアプリを部品（コンポーネント）で作る仕組み</p>
             <p>画面を作るためのJavaScriptライブラリ</p>
           </div>
@@ -97,7 +92,6 @@ function Project_1() {
           
           <img  src={filetree01} alt="filetree img" className="filetree01" />
           
-         
 
         </div>
       </div>
