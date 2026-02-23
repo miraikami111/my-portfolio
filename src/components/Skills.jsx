@@ -21,7 +21,7 @@ function Skills() {
         <p>Python 3エンジニア認定基礎 取得 目指す…</p>
         <p>基本情報技術者検定取得 目指す…</p>
         <p>TOEIC 730点目指す…</p>
-        <p>5回目のHalf Marathon 完走🏃‍♂️</p>
+        <p>5回目のHalf Marathon 完走🏃‍♂️目指す…</p>
       </section>
     </div>
   );
