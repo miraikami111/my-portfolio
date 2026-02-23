@@ -10,7 +10,7 @@ function Profile(){//Profileコンポーネント
              <img src={croatia03} alt="Profile photo"className="profile-photo"/>
              <h3 className="marker-rough">Job Experiences</h3>
                 <ul className="profile-list">
-                    <li>接客 - 飲食店、客室乗務員</li>
+                    <li>接客 - 客室乗務員・飲食店</li>
                     <li>農家さんのお手伝い - 高原野菜の収穫</li>
                     <li>品質確認 - 完成車</li>
                     <li>物流 - フォークリフト作業</li>
@@ -19,8 +19,8 @@ function Profile(){//Profileコンポーネント
             <h3 className="marker-rough">Likes</h3>
                 <ul className="profile-list">
                     <li>Traveling 🌏 - 国内外</li>
-                    <li>Animals 🐴🐶 - 馬、犬</li>
-                    <li>Sports 🏃‍♂️🚴‍♂️ - 走ること(中距離), cycling</li>
+                    <li>Animals 🐴🐶 - 馬・犬</li>
+                    <li>Sports 🏃‍♂️🚴‍♂️ - 走ること・ cycling</li>
                 </ul>
 
             

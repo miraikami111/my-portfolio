@@ -1,6 +1,6 @@
 import img11 from "../assets/img11.png";
 import filetree01 from "../assets/filetree01.png";
-// import "./Project_1.css";
+
 
 function Project_1() {
   return (

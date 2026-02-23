@@ -57,3 +57,6 @@ public
 そのあと
 npm install
 npm run dev
+
+
+ 
