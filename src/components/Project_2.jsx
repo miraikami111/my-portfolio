@@ -1,3 +1,4 @@
+import file02 from "../assets/file02.png";
 //⑤作品一覧ページ
 // Project_２コンポーネント
 function Project_2(){
@@ -49,9 +50,17 @@ function Project_2(){
             <h3>My Impression🤯</h3>
             <p>今回は趣味程度ですが、インバウンド向けに日本の魅力を伝えられるようなものを
               いつかは作ってみたい。と思いました。今回は、オフラインでも動くように、できるだけ処理を軽くしたい。
-              という思いがあったので、機能には限界がありましたが、もっと面白いものができそうだと思いました。
+              という思いがあったので、機能には限界がありましたが、さらに時間をかければ、もっと面白いものができそうだと思いました。
+              今はこのimageの数が少ないので、問題ないですが、将来的には画像表示のパフォーマンスを考慮し、
+              ブラウザ内で圧縮可能なツールを別途実装できたらいいなと考えています。。
             </p>
-            </div>
+            <img 
+              src={file02} 
+              alt="file02 img" 
+              className="filetree01" 
+            />
+
+</div>
             
         
           <div className="project-right">
@@ -61,14 +70,14 @@ function Project_2(){
             <div className="programming_lang">
               <h4>Technical Stack</h4>
 
-<h5>■ Programming Languages</h5>
+<h4>■ Programming Languages</h4>
 <p>
 Python（地図HTML生成） / 
 JavaScript（動的UI・検索機能実装） / 
 HTML・CSS（レイアウト・デザイン）
 </p>
 
-<h5>■ Library / Data</h5>
+<h4>■ Library / Data</h4>
 <p>
 Folium（Python地図描画ライブラリ）<br/>
 GeoJSON（地理データ形式）<br/>
@@ -105,6 +114,7 @@ localStorage（ブラウザ保存機能）
   <p>
     Gitでソースコードを管理し、
     GitHub Pagesにて静的Webアプリとして公開。
+
   </p>
 </div>
   
