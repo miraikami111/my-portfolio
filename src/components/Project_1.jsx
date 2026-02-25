@@ -42,7 +42,7 @@ function Project_1() {
             インストールしたり、ライブラリをいインポートしたりしていた為、不具合が出たときに、
             どこをみて修正したらいいのか、かなり混乱しました。一つ直せば他のところが壊れて、大変な思いもしました。
             GitHubの使いかたを少しでも知ることができてよかったです。
-            レイアウトの部分は、目に見える変化があり、割と楽しみながら作業していました。
+            レイアウトやデザインの部分は、目に見える変化があり、割と楽しみながら作業していました。
 
           </p>
           
@@ -66,21 +66,26 @@ function Project_1() {
 
           {/* 言語カード（右へ移動） */}
           <div className="programming_lang">
+
+            <h5>Technical Stack🔧</h5>
+
             <h4>■ Programming Languages</h4>
             <p>JavaScript /動き（反応） 
                 HTML /見た目（骨組み）
                 CSS/デザイン（色・配置）</p>
 
             <h4>■ Library / Data</h4>
-            <h5>React</h5>
-            <p>Webアプリを部品（コンポーネント）で作る仕組み</p>
-            <p>画面を作るためのJavaScriptライブラリ</p>
+            
+            <p>React/画面を作るためのJavaScriptライブラリ<br/>
+               Webアプリを部品（コンポーネント）で作る仕組み
+
+               JSON / データ形式<br/>
+               </p>データを「キー」と「値」で整理する仕組み<br/>
           </div>
           
           {/* フロー（右のまま） */}
           <div className="project-card">
             <h4>VS Code</h4>
-            <p>コードを書く場所（開発環境）</p>
           </div>
           <div className="arrow">↓ 編集</div>
 

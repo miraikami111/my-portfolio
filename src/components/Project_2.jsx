@@ -12,7 +12,7 @@ function Project_2(){
                 src="https://miraikami111.github.io/visited_japan/"
                 title="visited_japan_map"
                 style={{
-                    width: "60%",
+                    width: "80%",
                     height: "700px",
                     border: "none",
                     marginTop: "20px",
@@ -31,7 +31,7 @@ function Project_2(){
                 <li>訪問済み都道府県の動的色変更（緑表示）</li>
                 <li>ホバー時に概要表示（ツールチップ実装）</li>
                 <li>クリックでアルバムモーダル表示</li>
-                <li>＃タグによるキーワード検索機能</li>
+                <li>＃タグによるキーワード検索機能(二文字以上一致でヒット)</li>
                 <li>一致候補の動的サジェスト表示</li>
                 <li>訪問率（％表示）の自動計算機能</li>
                 <li>localStorageによる状態保存</li>
@@ -51,8 +51,8 @@ function Project_2(){
             <p>今回は趣味程度ですが、インバウンド向けに日本の魅力を伝えられるようなものを
               いつかは作ってみたい。と思いました。今回は、オフラインでも動くように、できるだけ処理を軽くしたい。
               という思いがあったので、機能には限界がありましたが、さらに時間をかければ、もっと面白いものができそうだと思いました。
-              今はこのimageの数が少ないので、問題ないですが、将来的には画像表示のパフォーマンスを考慮し、
-              ブラウザ内で圧縮可能なツールを別途実装できたらいいなと考えています。。
+              今は画像の数が少ないので、問題ないですが、将来的には画像表示のパフォーマンスを考慮し、
+              ブラウザ内で圧縮可能なツールを別途実装できたらいいなと考えています。
             </p>
             <img 
               src={file02} 
@@ -68,7 +68,7 @@ function Project_2(){
   
             {/* 言語カード（右へ移動） */}
             <div className="programming_lang">
-              <h4>Technical Stack</h4>
+              <h5>Technical Stack🔧</h5>
 
 <h4>■ Programming Languages</h4>
 <p>
