@@ -16,7 +16,7 @@ function Profile(){//Profileコンポーネント
                     <li>物流 - フォークリフト作業</li>
                 </ul>
 
-            <h3 className="marker-rough">Likes</h3>
+            <h3 className="marker-rough">Favorites</h3>
                 <ul className="profile-list">
                     <li>Traveling 🌏 - 国内外</li>
                     <li>Animals 🐴🐶 - 馬・犬</li>
