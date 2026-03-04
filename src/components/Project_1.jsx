@@ -1,6 +1,6 @@
 import img11 from "../assets/img11.png";
 import filetree01 from "../assets/filetree01.png";
-
+import knowbuddyQR from "../assets/knowbuddy_qr.png";
 
 function Project_1() {
   return (
@@ -53,7 +53,8 @@ function Project_1() {
         <div className="project-right">
           {/* 画像 + リンク（右へ移動） */}
           <div className="project-link">
-            <img src={img11} alt="kbapp img" className="kbapp" />
+
+            <p className="click-text">Click here ☟</p>
             <a
               href="https://knowbuddy.vercel.app"
               target="_blank"
@@ -61,7 +62,17 @@ function Project_1() {
               className="btn-link"
             >
               URL: knowbuddy.vercel.app
-            </a>
+             
+             </a>
+           
+            <img src={img11} alt="kbapp img" className="kbapp" />
+             
+             <br />
+           
+
+              <img src={knowbuddyQR} alt="KnowBuddy QR" className="qr-code"/>
+           
+        
           </div>
 
           {/* 言語カード（右へ移動） */}

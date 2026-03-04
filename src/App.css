@@ -79,10 +79,18 @@ html, body, #root {
 }
 
 .kbapp {
-  width: 300px;
+  width: 250px;
   max-width: 90%;
   height: auto;
   border-radius: 10px;
+
+}
+.qr-code{
+  width: 170px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+
 }
 .programming_lang{
   background-color: rgb(166, 243, 202);
@@ -167,8 +175,12 @@ html, body, #root {
   text-decoration: none; 
   color: #0070f3;     /* リンク色 */
   font-weight: bold;
+  display:block;
+  margin-bottom:30px;
 }
-
+.click-text{
+  margin:0;
+}
 .filetree01 {
   width: 600px;
   max-width: 100%;

@@ -20,10 +20,9 @@ function Profile(){//Profileコンポーネント
                 <ul className="profile-list">
                     <li>Traveling 🌏 - 国内外</li>
                     <li>Animals 🐴🐶 - 馬・犬</li>
-                    <li>Sports 🏃‍♂️🚴‍♂️ - 走ること ・ cycling</li>
+                    <li>Sports 🏃‍♂️🚴‍♂️ - 走ること ・ サイクリング</li>
                 </ul>
 
-            
         </section>
     </div>
     );
